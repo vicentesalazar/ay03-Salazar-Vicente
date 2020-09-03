@@ -1,0 +1,19 @@
+#titulo{
+    color: red
+}
+.importante{
+    text-shadow: 10px 5px 5px blue; 
+}
+.caja1{
+    border: 2px dashed black
+
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    background: cadetblue;
+}
+#pags{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
