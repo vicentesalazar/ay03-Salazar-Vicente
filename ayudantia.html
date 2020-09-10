@@ -2,17 +2,19 @@
     <head>
         hola k tal esta es mi primera pag
         <link href="estilo.css" rel="stylesheet"/>
+        <script type="text/javascript" src="jquery-3.5.1.slim.min.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>
     </head>
     <body>
-        <p><header id="titulo" class="importante">MESSI SE VA DEL BARCELONA?</header></p>
+        <p id="titulo" class="importante">MESSI SE VA DEL BARCELONA?</p>
 
         <div class="caja1"><article>Descubre en esta pagina toda la informacion acerca de la supuesta <strong>salida</strong> de la estrella argentina</article></div>
-        <div class="caja1"> <img src="imagenes/messi_suarez.jpeg" width = "500">
-            <p>Esta podria ser la utlima temporada de la dupla Latinoamericana en Barcelona</p>
+        <div id="mys"> <img src="imagenes/messi_suarez.jpeg" width = "500">
+            <p id="bajada">Esta podria ser la utlima temporada de la dupla Latinoamericana en Barcelona</p>
         </div>
         <div class="caja1">
             <img src = "imagenes/messi_aguero.jpg" width ="500">
-            <p class="importante">Messi y su posible nueva dupla, Sergio Agüero</p>
+            <p id="dupla">Messi y su posible nueva dupla, Sergio Agüero</p>
         </div>
         <div class="caja2" id="pags">Descubre los primeros sitios en anunciar esta noticia
             <nav>
@@ -23,6 +25,9 @@
                 </ul>
             </nav>
         </div>
-
+        <div >
+            <button id="boton">APRIETA EL BOTON DEL FUTURO</button>
+            <button id="chaosuarez">CHAO SUAREZ?</button>
+        </div>
     </body>
 </html>
